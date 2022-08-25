@@ -1,10 +1,16 @@
-name = "CImGuiCompiled"
+name = "CImGuiApp"
 uuid = "51081898-0d9d-447c-95fa-8e85de992501"
 authors = ["Viktor G. Gumennyy <20798349+sairus7@users.noreply.github.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+CImGui = "5d785b6c-b76f-510e-a07c-3070796c7e87"
+ImPlot = "e8efc688-5342-4ad4-b4ba-9025a731b363"
+
 [compat]
 julia = "1"
+CImGui = "1.82.0" # master branch
+ImPlot = "0.3.0" # main branch
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
